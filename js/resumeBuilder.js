@@ -12,4 +12,8 @@ var funThoughts = awesomeThoughts.replace("Awesome!!", "fuuuuun");
 
 console.log(funThoughts);
 
-$("#main").append(["funThoughts"]);
+var name = "Ali Ramezani";
+
+var formattedName = HTMLheaderName.replace("%data%", name);
+
+$("#header").append(formattedName);
