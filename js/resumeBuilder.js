@@ -21,3 +21,7 @@ var formattedRole = HTMLheaderRole.replace("%data%", role);
 
 $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
+
+var myarray = ["ali", "JS", "Polymer", "web"];
+
+$("#main").append(myarray);
