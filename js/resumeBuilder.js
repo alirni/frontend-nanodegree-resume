@@ -25,7 +25,7 @@ $("#header").prepend(formattedName);
 var myarray = ["ali", "JS", "Polymer", "web"];
 
 // $("#main").append(myarray);
-$("#main").append(myarray);
+// $("#main").append(myarray);
 
 var name = "AlbERt EINstEiN rnI";
 console.log("name : " + name);
@@ -71,4 +71,9 @@ var bio = {
     "biopic" : "images/fry.jpg"
 };
 
-$("#main").append(bio)
+
+bio["newmail"] = "aliramezani19.1@gmail.com";
+
+
+$("#main").append(bio.newmail);
+
