@@ -53,3 +53,15 @@ function nameChanger(oldName) {
 
 // Did your code work? The line below will tell you!
 console.log(nameChanger(name));
+
+
+var myObj = {
+    "name" : "Ali Ramezani",
+    "fname" : "Ali",
+    "lname" : "Ramezani",
+    "age" : 20,
+    "job" : "web developer",
+    "array" : myarray
+};
+
+// $("#main").append(myObj.array)
