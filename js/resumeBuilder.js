@@ -64,4 +64,4 @@ var myObj = {
     "array" : myarray
 };
 
-// $("#main").append(myObj.array)
+$("#main").append(myObj.name)
