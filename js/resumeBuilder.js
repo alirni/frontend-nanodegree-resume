@@ -55,13 +55,20 @@ function nameChanger(oldName) {
 console.log(nameChanger(name));
 
 
-var myObj = {
+var bio = {
     "name" : "Ali Ramezani",
-    "fname" : "Ali",
-    "lname" : "Ramezani",
-    "age" : 20,
-    "job" : "web developer",
-    "array" : myarray
+    "role" : "web developer",
+    "contact" : {
+        "mobile" : "09152502743",
+        "email" : "Ali@ramezany.com",
+        "github" : "alirni",
+        "location" : "Mashhad"
+    },
+    "welcomemessage" : "hello my firends",
+    "skills" : [
+        "ali", "JS", "Polymer", "web"
+    ],
+    "biopic" : "images/fry.jpg"
 };
 
-$("#main").append(myObj.name)
+$("#main").append(bio)
