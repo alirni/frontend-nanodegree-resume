@@ -24,4 +24,5 @@ $("#header").prepend(formattedName);
 
 var myarray = ["ali", "JS", "Polymer", "web"];
 
-$("#main").append(myarray);
+// $("#main").append(myarray);
+$("#main").append(myarray[2]);
